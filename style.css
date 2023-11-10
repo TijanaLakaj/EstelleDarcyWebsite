@@ -1,0 +1,135 @@
+
+.nav-link {
+    color: #a97155;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #a97155;
+}
+
+#Navbar > .container {
+    position: sticky;
+}
+
+h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 44px;
+    color: #a97155;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.page {
+    height: 100vh;
+}
+
+.img-border-80 {
+    border-radius: 80px;
+    object-fit: contain;
+}
+
+.color-dark-brown {
+    color: #a97155;
+}
+
+.color-light-brown {
+    color: #be8c63;
+}
+
+.background-color-br {
+    background-color: #fffbf5;
+}
+
+.btn {
+    background-color: #a97155;
+    border-color: #a97155;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+.break-line {
+    background-color: #a97155;
+    color: #a97155;
+    border-width: 2px;
+}
+
+
+#Title img {
+    border-radius: 3rem;
+}
+
+#About-me img {
+    object-fit: cover;
+    height: 500px;
+    max-width: 350px;
+    min-width: 300px;
+    border-radius: 3rem;
+}
+
+#Interests img {
+    object-fit: cover;
+    height: fit-content;
+    max-height: 280px;
+    border-radius: 2.5rem;
+}
+
+#Quotes img {
+    object-fit: cover;
+    height: fit-content;
+    max-height: 280px;
+    min-width: 100px;
+    border-radius: 2rem;
+}
+
+.quote-about {
+    font-size: 20px;
+}
+
+.quote-name {
+    font-size: 18px;
+}
+
+.quote-title {
+    font-size: 14px;
+}
+
+#Reach-out img {
+    object-fit: cover;
+    height: 300px;
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 3rem;
+}
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: #a97155;
+    margin: 0;
+}
+
+.social {
+    font-family: 'Old Standard TT', serif;
+
+}
+
+#Reach-out svg {
+    width: 35px;
+    height: 35px;
+}
