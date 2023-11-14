@@ -2,6 +2,7 @@ h2 {
     font-family: 'Old Standard TT', serif;
     font-size: 44px;
     color: #a97155;
+    margin: 0;
 }
 
 h3 {
@@ -12,11 +13,10 @@ h3 {
 
 p {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     margin: 0;
 }
-
 
 .bold {
     font-weight: bold;
@@ -72,25 +72,21 @@ p {
 }
 
 #About-me img {
-    /* object-fit: cover;
-    height: 400px;
-    max-width: 350px;
-    min-width: 300px; */
     border-radius: 3rem;
+    max-height: 600px;
 }
 
 #Interests img {
     object-fit: cover;
     height: fit-content;
-    max-height: 280px;
+    max-height: 400px;
     border-radius: 2.5rem;
 }
 
 #Quotes img {
-    object-fit: cover;
-    height: fit-content;
-    max-height: 280px;
-    min-width: 100px;
+    /* height: fit-content; */
+    /* max-height: 400px; */
+    /* min-width: 100px; */
     border-radius: 2rem;
 }
 
@@ -107,11 +103,16 @@ p {
 }
 
 #Reach-out img {
-    object-fit: cover;
-    height: 300px;
-    max-width: 300px;
-    min-width: 200px;
+    /* object-fit: cover; */
+    max-height: 600px;
+    /* max-width: 300px; */
+    /* min-width: 200px; */
     border-radius: 3rem;
+}
+
+#Reach-out svg {
+    width: 35px;
+    height: 35px;
 }
 
 a {
@@ -124,9 +125,4 @@ a {
 .social {
     font-family: 'Old Standard TT', serif;
 
-}
-
-#Reach-out svg {
-    width: 35px;
-    height: 35px;
 }

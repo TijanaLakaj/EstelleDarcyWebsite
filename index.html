@@ -14,7 +14,36 @@
 
         @media (max-width: 600px) {
             p {
+                font-size: 16px;
+            }
+
+            .quote-about {
                 font-size: 18px;
+            }
+
+            .quote-name {
+                font-size: 16px;
+            }
+
+            .quote-title {
+                font-size: 16px;
+            }
+
+            #About-me img {
+                border-radius: 3rem;
+                max-height: 250px;
+            }
+
+            #Interests img {
+                max-height: 250px;
+            }
+
+            #Quotes img {
+                max-height: 250px;
+            }
+
+            #Reach-out img {
+                max-height: 250px;
             }
         }
 
@@ -47,7 +76,7 @@
     <section id="About-me" class="px-5">
         <div class="container p-4">
             <div class="d-flex flex-column flex-lg-row-reverse justify-content-around align-items-center py-5">
-                <div class="col-10 col-lg-6">
+                <div class="col-10 col-lg-6 text-center">
                     <img src="./images/laptop-about-me-1230x1640.jpg" alt="laptop picture" class="img-fluid">
                 </div>
                 <div class="d-flex flex-column col-10 col-lg-4 pt-5">
@@ -64,12 +93,12 @@
 
     <!-- Experience and education -->
     <section id="Experience" class="background-color-br px-5">
-        <div class="container col-lg-9 p-5">
+        <div class="container col-lg-10 p-5">
             <div class="d-flex flex-column flex-lg-row">
-                <div class="px-4 pb-2">
+                <div class="px-4 pb-3 col-lg-3">
                     <h2>Experience & Education</h2>
                 </div>
-                <div class="d-flex flex-row flex-md-column">
+                <div class="d-flex flex-column">
                     <div class="d-flex flex-column flex-xl-row">
                         <div>
                             <p class="bold year px-4 pb-2">2025</p>
@@ -79,9 +108,8 @@
                             <p class="place bold px-4 pb-2">University of Santa Solana</p>
                             <p class="about px-4 pb-2">There is just enough space here for several lines of text. You
                                 can add details, share a quick story, or elaborate on an idea, as long as you keep the
-                                information
-                                engaging and relevant. For maximum impact, make sure you get your message across clearly
-                                yet concisely.
+                                information engaging and relevant.
+                                For maximum impact, make sure you get your message across clearly yet concisely.
                             </p>
                         </div>
                     </div>
@@ -123,20 +151,20 @@
                     <h2 class="mb-0">Aditional intrests</h2>
                 </div>
                 <div class="d-flex flex-column flex-lg-row justify-content-around pt-2">
-                    <div class="col-lg-3 text-center px-4">
+                    <div class="col-lg-3 text-center px-4 py-1">
                         <img src="./images/cardmaking-1230x1640.jpg" alt="cardmaking" class="img-fluid">
                         <p class="bold color-dark-brown pt-3 pb-1">Cardmaking</p>
-                        <p class="pb-4 px-2">Having fun with a creative hobby is fulfilling for me.</p>
+                        <p class="pb-4 px-4">Having fun with a creative hobby is fulfilling for me.</p>
                     </div>
-                    <div class="col-lg-3 text-center px-4">
+                    <div class="col-lg-3 text-center px-4 py-1">
                         <img src="./images/calligraphy-1230x1640.jpg" alt="calligraphy" class="img-fluid">
                         <p class="bold color-dark-brown pt-3 pb-1">Calligraphy</p>
-                        <p class="pb-4 px-2">Type of hobby that calms my nerves while I practice patience.</p>
+                        <p class="pb-4 px-4">Type of hobby that calms my nerves while I practice patience.</p>
                     </div>
-                    <div class="col-lg-3 text-center px-4">
+                    <div class="col-lg-3 text-center px-4 py-1">
                         <img src="./images/dancing-1230x1640.jpg" alt="dancing" class="img-fluid">
                         <p class="bold color-dark-brown pt-3 pb-1">Dancing</p>
-                        <p class="pb-4 px-2">And to make my body move, I take dance classes periodically.</p>
+                        <p class="pb-4 px-4">And to make my body move, I take dance classes periodically.</p>
                     </div>
                 </div>
             </div>
@@ -146,12 +174,15 @@
     <!-- Quotes -->
     <section id="Quotes" class="background-color-br px-5">
         <div class="container col-6 py-5">
-            <div class="d-flex flex-column" col-9>
+            <div class="d-flex flex-column">
+                <div class="d-flex justify-content-center pb-3">
+                    <h2 class="mb-0">They said about me...</h2>
+                </div>
                 <div class="d-flex flex-column flex-lg-row align-items-center py-2">
-                    <div class="px-3">
+                    <div class="col-lg-3 text-center px-3">
                         <img src="./images/nellie-1230x1640.jpg" alt="nellie" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column px-3 py-3">
+                    <div class="d-flex flex-column col-lg-9 px-3 pt-3">
                         <p class="quote-about py-1">"I appreciate Estelle's enthusiasm and her passion for learning new
                             things. She was a great addition to our organization and she contributed a lot during the
                             summer."</p>
@@ -160,11 +191,11 @@
                     </div>
                 </div>
                 <hr class="break-line" />
-                <div class="d-flex flex-column flex-lg-row align-items-center py-2">
-                    <div class="px-3">
+                <div class="d-flex flex-column flex-lg-row py-2">
+                    <div class="col-lg-3 text-center px-3">
                         <img src="./images/francois-1230x1640.jpg" alt="francois" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column px-3 py-3">
+                    <div class="d-flex flex-column col-lg-9 px-3 pt-3">
                         <p class="quote-about py-1">"Estelle is one of the top students in the College of Arts. She
                             knows how to balance multiple responsibilities at the same time. Any workplace would be
                             lucky to have her in their organization."</p>
@@ -180,7 +211,7 @@
     <section id="Reach-out" class="px-5">
         <div class="container col-10 p-4">
             <div class="d-flex flex-column flex-lg-row justify-content-around align-items-center p-4">
-                <div class="d-flex align-items-center my-2">
+                <div class="d-flex align-items-center col-lg-6 my-2">
                     <img src="./images/laptop-contact-me-1230x1640.jpg" alt="laptop image">
                 </div>
                 <div class="d-flex flex-column col-6">
@@ -188,7 +219,7 @@
                     <p class="color-dark-brown bold py-2">Estelle Darcy</p>
                     <a href="mailto:hello@reallygreatsite.com" class="mb-3">hello@reallygreatsite.com</a>
                     <hr class="break-line" />
-                    <p class="d-flex social color-dark-brown align-items-end mt-3">CONNECT WITH ME</p>
+                    <p class="d-flex social color-dark-brown align-items-end mt-3">CONNECT WITH ME:</p>
                     <div class="d-flex align-items-end mt-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                             class="bi bi-instagram color-dark-brown" viewBox="0 0 16 16">
