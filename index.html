@@ -29,11 +29,20 @@
                 padding: 0 1rem;
             }
 
+            img.image-height {
+                max-height: 250px;
+            }
 
 
-            #Title .container {
+            #Title .container,
+            #Experience .container,
+            #About-me .container,
+            #Quotes .container,
+            #Reach-out .container,
+            #Interests .container {
                 padding: 1rem;
             }
+
 
             #Title .container>* {
                 padding: 1rem 0;
@@ -50,10 +59,6 @@
                 max-height: 250px;
             }
 
-            #About-me .container {
-                padding: 1rem;
-            }
-
             #About-me .container>* {
                 padding: 1rem 0;
             }
@@ -62,28 +67,19 @@
                 padding-top: 1rem;
             }
 
-
-
-            #Experience .container {
-                padding: 1rem;
+            #About-me .distance {
+                padding: 0 0.5rem;
             }
+
 
             #Experience .distance {
                 padding: 0 1rem 0.5rem 1rem;
             }
 
             #Experience .distance-top {
-                padding-top: 1rem;
+                padding-top: 0.5rem;
             }
 
-
-            #Interests .container {
-                padding: 1rem;
-            }
-
-            #Interests img {
-                max-height: 250px;
-            }
 
             #Interests .distance {
                 padding: 0 0.5rem;
@@ -102,16 +98,8 @@
             }
 
 
-            #Quotes img {
-                max-height: 250px;
-            }
-
-            #Quotes .container {
-                padding: 1rem;
-            }
-
             #Quotes .distance {
-                padding: 1rem 0;
+                padding: 0.5rem 0;
             }
 
             #Quotes .quote-info {
@@ -135,14 +123,6 @@
 
             #Quotes .image {
                 padding: 0 1rem;
-            }
-
-            #Reach-out img {
-                max-height: 250px;
-            }
-
-            #Reach-out .container {
-                padding: 1rem;
             }
 
             #Reach-out h2 {
@@ -169,7 +149,12 @@
                 padding: 0 2rem;
             }
 
-            #Experience .container {
+            #Title .container,
+            #Experience .container,
+            #About-me .container,
+            #Quotes .container,
+            #Reach-out .container,
+            #Interests .container {
                 padding: 2rem;
             }
 
@@ -182,22 +167,91 @@
             }
 
             p,
-            .quote-name,
-            .quote-title {
+            .quote-about {
                 font-size: 18px;
             }
+
+            .quote-name,
+            .quote-title {
+                font-size: 16px;
+            }
+
 
             #Title img {
                 max-height: 500px;
             }
+
+            #Title .container>* {
+                padding: 2rem 0;
+            }
+
+            #Title .container .info {
+                padding-top: 2rem;
+            }
+
 
             #About-me img {
                 border-radius: 3rem;
                 max-height: 400px;
             }
 
+            #About-me .container>* {
+                padding: 2rem 0;
+            }
+
+            #About-me .distance {
+                padding: 1rem;
+            }
+
+
+            #Experience .distance {
+                padding: 0 1rem 2px 1rem;
+            }
+
+            #Experience .distance-top {
+                padding-top: 0.5rem;
+                padding-left: 1rem;
+            }
+
+            #Experience .distance,
+            .distance-top {
+                padding: 8px 0 0 0;
+            }
+
             #Interests img {
                 max-height: 350px;
+            }
+
+            #Interests .distance {
+                padding: 0;
+            }
+
+            #Interests .block {
+                padding: 1rem 0;
+            }
+
+            #Interests .interest-name {
+                padding-top: 0.5rem;
+            }
+
+            #Interests .distance-top {
+                padding-top: 1rem;
+            }
+
+            #Quotes .distance {
+                padding: 0.5rem 0;
+            }
+
+            #Quotes .quote-info {
+                padding: 0.5rem 1.5rem 0 1.5rem;
+            }
+
+            #Quotes .quote-about {
+                padding: 8px 0;
+            }
+
+            #Quotes .image {
+                padding: 0 1rem;
             }
 
             #Quotes img {
@@ -206,6 +260,18 @@
 
             #Reach-out img {
                 max-height: 400px;
+            }
+
+            #Reach-out .distance {
+                padding-bottom: 2rem;
+            }
+
+            #Reach-out hr {
+                margin: 2rem 0;
+            }
+
+            #Reach-out .social {
+                padding-bottom: 1rem;
             }
         }
     </style>
@@ -220,7 +286,7 @@
                 <div class="col-10 col-lg-6 text-center">
                     <img src="./images/estelle-darcy-1230x1640.jpg" alt="estelle profile picture" class="img-fluid">
                 </div>
-                <div class="info d-flex flex-column align-items-center col-10 col-lg-6">
+                <div class="info d-flex flex-column align-items-center col-lg-6">
                     <h2>Estelle Darcy</h2>
                     <h3>Front-end developer</h3>
                     <h3>Civil engineer</h3>
@@ -235,11 +301,11 @@
     <!-- About me -->
     <section id="About-me" class="desktop-version">
         <div class="container">
-            <div class="d-flex flex-column flex-lg-row-reverse justify-content-around align-items-center">
-                <div class="col-10 col-lg-6 text-center">
+            <div class="d-flex flex-column flex-lg-row-reverse justify-content-around align-items-center distance">
+                <div class="col-lg-6 text-center">
                     <img src="./images/laptop-about-me-1230x1640.jpg" alt="laptop picture" class="img-fluid">
                 </div>
-                <div class="info d-flex flex-column col-10 col-lg-4">
+                <div class="info d-flex flex-column col-lg-4 distance">
                     <p class="bold pb-2">WHO I AM</p>
                     <h2>About Me</h2>
                     <hr class="break-line" />
@@ -340,26 +406,26 @@
                 </div>
                 <div class="d-flex flex-column flex-lg-row align-items-center distance">
                     <div class="image col-lg-3 text-center">
-                        <img src="./images/nellie-1230x1640.jpg" alt="nellie" class="img-fluid">
+                        <img src="./images/nellie-1230x1640.jpg" alt="nellie" class="img-fluid image-height">
                     </div>
                     <div class="d-flex flex-column col-lg-9 quote-info">
                         <p class="quote-about">"I appreciate Estelle's enthusiasm and her passion for learning new
                             things. She was a great addition to our organization and she contributed a lot during the
                             summer."</p>
-                        <p class="color-dark-brown quote-name">Nellie Iglesias</p>
+                        <p class="color-dark-brown bold quote-name">Nellie Iglesias</p>
                         <p class="color-dark-brown quote-title">INTERNSHIP SUPERVISOR</p>
                     </div>
                 </div>
                 <hr class="break-line" />
                 <div class="d-flex flex-column flex-lg-row align-items-center distance">
                     <div class="image col-lg-3 text-center">
-                        <img src="./images/francois-1230x1640.jpg" alt="francois" class="img-fluid">
+                        <img src="./images/francois-1230x1640.jpg" alt="francois" class="img-fluid image-height">
                     </div>
                     <div class="d-flex flex-column col-lg-9 quote-info">
                         <p class="quote-about">"Estelle is one of the top students in the College of Arts. She
                             knows how to balance multiple responsibilities at the same time. Any workplace would be
                             lucky to have her in their organization."</p>
-                        <p class="color-dark-brown quote-name">Dr. Francois Mercer, PhD</p>
+                        <p class="color-dark-brown bold quote-name">Dr. Francois Mercer, PhD</p>
                         <p class="color-dark-brown quote-title">COLLEGE CHAIR</p>
                     </div>
                 </div>
@@ -372,12 +438,13 @@
         <div class="container">
             <div class="d-flex flex-column flex-lg-row justify-content-around align-items-center">
                 <div class="col-8 col-lg-6 text-center">
-                    <img src="./images/laptop-contact-me-1230x1640.jpg" alt="laptop image" class="img-fluid">
+                    <img src="./images/laptop-contact-me-1230x1640.jpg" alt="laptop image"
+                        class="img-fluid image-height">
                 </div>
-                <div class="d-flex flex-column col-6 col-lg-6">
-                    <h2 class="d-flex align-items-start">Reach out</h2>
+                <div class="d-flex flex-column col-8 col-lg-6">
+                    <h2 class="d-flex align-items-start distance">Reach out</h2>
                     <p class="color-dark-brown bold">Estelle Darcy</p>
-                    <a href="mailto:hello@reallygreatsite.com" class="">hello@reallygreatsite.com</a>
+                    <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a>
                     <hr class="break-line" />
                     <p class="d-flex social color-dark-brown align-items-end ">CONNECT WITH ME:</p>
                     <div class="d-flex align-items-end icons">
