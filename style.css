@@ -1,3 +1,4 @@
+/* Opsta podesavanja */
 .desktop-version {
     padding: 0 3rem;
 }
@@ -26,10 +27,6 @@ p {
     font-weight: bold;
 }
 
-.page {
-    height: 100vh;
-}
-
 .img-border-80 {
     border-radius: 80px;
     object-fit: contain;
@@ -45,6 +42,18 @@ p {
 
 .background-color-br {
     background-color: #fffbf5;
+}
+
+.break-line {
+    background-color: #a97155;
+    color: #a97155;
+    border-width: 2px;
+}
+
+
+/* Title  */
+#Title img {
+    border-radius: 3rem;
 }
 
 .btn {
@@ -65,21 +74,19 @@ p {
     border-color: #a97155;
 }
 
-.break-line {
-    background-color: #a97155;
-    color: #a97155;
-    border-width: 2px;
-}
 
-#Title img {
-    border-radius: 3rem;
-}
-
+/* About me */
 #About-me img {
     border-radius: 3rem;
     max-height: 600px;
 }
 
+/* Experience and education */
+#Experience .container {
+    padding: 3rem;
+}
+
+/* Aditional intrests */
 #Interests img {
     object-fit: cover;
     height: fit-content;
@@ -87,6 +94,7 @@ p {
     border-radius: 2.5rem;
 }
 
+/* They said about me */
 #Quotes img {
     max-height: 400px;
     border-radius: 2rem;
@@ -94,16 +102,20 @@ p {
 
 .quote-about {
     font-size: 20px;
+    padding: 4px 0;
 }
 
 .quote-name {
     font-size: 18px;
+    padding-top: 4px;
 }
 
 .quote-title {
     font-size: 14px;
+    padding-bottom: 4px;
 }
 
+/* Reach out */
 #Reach-out img {
     max-height: 600px;
     border-radius: 3rem;
