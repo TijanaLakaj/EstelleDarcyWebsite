@@ -72,6 +72,7 @@
             }
 
 
+
             #Experience .distance {
                 padding: 0 1rem 0.5rem 1rem;
             }
@@ -79,6 +80,7 @@
             #Experience .distance-top {
                 padding-top: 0.5rem;
             }
+
 
 
             #Interests .distance {
@@ -97,13 +99,18 @@
                 padding-top: 0.5rem;
             }
 
+            #Interests .distance-bottom {
+                padding: 0;
+            }
+
+
 
             #Quotes .distance {
                 padding: 0.5rem 0;
             }
 
             #Quotes .quote-info {
-                padding: 0.5rem 1.5rem 0 1.5rem;
+                padding: 0.5rem 2rem 0 2rem;
             }
 
             #Quotes .quote-about {
@@ -125,6 +132,8 @@
                 padding: 0 1rem;
             }
 
+
+
             #Reach-out h2 {
                 padding: 16px 0;
             }
@@ -142,6 +151,22 @@
                 padding-top: 16px;
             }
 
+            #Reach-out .distance {
+                padding: 8px 0;
+            }
+            
+            a {
+                font-size: 16px;
+                padding-top: 8px;
+            }
+
+            #Reach-out hr {
+                margin: 1rem 0;
+            }
+
+            #Reach-out .social {
+                padding-bottom: 8px;
+            }
         }
 
         @media (min-width: 481px) and (max-width: 1024px) {
@@ -192,7 +217,7 @@
 
             #About-me img {
                 border-radius: 3rem;
-                max-height: 400px;
+                max-height: 350px;
             }
 
             #About-me .container>* {
@@ -200,22 +225,26 @@
             }
 
             #About-me .distance {
-                padding: 1rem;
+                padding: 8px;
             }
 
-
-            #Experience .distance {
-                padding: 0 1rem 2px 1rem;
-            }
 
             #Experience .distance-top {
                 padding-top: 0.5rem;
                 padding-left: 1rem;
             }
 
+            #Experience h2 {
+                padding-left: 16px; 
+            }
+            
             #Experience .distance,
             .distance-top {
                 padding: 8px 0 0 0;
+            }
+
+            #Interests .distance-bottom {
+                padding: 0;
             }
 
             #Interests img {
@@ -263,7 +292,7 @@
             }
 
             #Reach-out .distance {
-                padding-bottom: 2rem;
+                padding: 2rem 0;
             }
 
             #Reach-out hr {
@@ -272,6 +301,10 @@
 
             #Reach-out .social {
                 padding-bottom: 1rem;
+            }
+
+            #Reach-out .info {
+                padding: 0 4rem;
             }
         }
     </style>
@@ -374,7 +407,7 @@
         <div class="container justify-content-center">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div class="distance-bottom">
-                    <h2 style="padding-top: 1rem;">Aditional intrests</h2>
+                    <h2>Aditional intrests</h2>
                 </div>
                 <div class="d-flex flex-column flex-lg-row justify-content-around distance-top">
                     <div class="col-lg-3 text-center block">
@@ -441,7 +474,7 @@
                     <img src="./images/laptop-contact-me-1230x1640.jpg" alt="laptop image"
                         class="img-fluid image-height">
                 </div>
-                <div class="d-flex flex-column col-8 col-lg-6">
+                <div class="d-flex flex-column info col-8 col-lg-6">
                     <h2 class="d-flex align-items-start distance">Reach out</h2>
                     <p class="color-dark-brown bold">Estelle Darcy</p>
                     <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a>
